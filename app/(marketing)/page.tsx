@@ -12,19 +12,16 @@ import { Footersection } from "./_components/footersection";
 
 const MarketingPage = () => {
   return (
-    <div className="min-h-full flex flex-col">
-      <div className="flex flex-col items-center justify-center md:justify-start text-center flex-1 px-6 pb-10">
-        <Example />,
-        <Category />
-        <Explore />
-        <Writercta />
-        <Companies />
-        <Coachcta />
-        <Faqsection />
-        <Endcta />
-        <br />
-        <Footersection />
-      </div>
+    <div className="min-h-screen flex flex-col items-center justify-center px-6 pb-10 md:justify-start">
+      <Example />
+      <Category />
+      <Explore />
+      <Writercta />
+      <Companies />
+      <Coachcta />
+      <Faqsection />
+      <Endcta />
+      <Footersection />
     </div>
   );
 };
