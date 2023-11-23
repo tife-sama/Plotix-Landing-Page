@@ -8,8 +8,8 @@ export const Companies = () => {
         <h2 className="text-center text-lg font-semibold leading-8 text-gray-900">
           The experience behind our coaches
         </h2>
-        <div className="carousel-container mx-auto mt-10 overflow-hidden">
-          <div className="carousel ">
+        <div className="carousel-container mx-auto mt-10 overflow-hidden text-center">
+          <div style={{ maxWidth: "90vw" }} className="carousel">
             {[
               // Duplicate logos for a continuous loop
               "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Apple_TV_Plus_Logo.svg/1024px-Apple_TV_Plus_Logo.svg.png",
@@ -90,6 +90,7 @@ export const Companies = () => {
               "https://upload.wikimedia.org/wikipedia/commons/6/65/BBC_logo_%281997-2021%29.svg",
               "https://upload.wikimedia.org/wikipedia/commons/4/48/The_Telegraph_logo.svg",
               "https://upload.wikimedia.org/wikipedia/commons/e/e0/Inside_Job_logo.png",
+              // ... (rest of the images)
             ].map((logo, index) => (
               <img
                 key={index}
