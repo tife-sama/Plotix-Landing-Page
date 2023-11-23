@@ -29,7 +29,7 @@ const features = [
   {
     name: "Feel inspired even with creative blocks",
     description:
-      "Benefit from the right resources to make your writing journey simpler",
+      "Benefit from the right resources to make your writing journey simpler.",
     icon: LightBulbIcon,
   },
 ];
