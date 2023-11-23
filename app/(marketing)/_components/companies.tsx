@@ -9,7 +9,7 @@ export const Companies = () => {
           The experience behind our coaches
         </h2>
         <div className="carousel-container mx-auto mt-10 overflow-hidden">
-          <div className="carousel">
+          <div className="carousel max-width: 100vw">
             {[
               // Duplicate logos for a continuous loop
               "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Apple_TV_Plus_Logo.svg/1024px-Apple_TV_Plus_Logo.svg.png",
