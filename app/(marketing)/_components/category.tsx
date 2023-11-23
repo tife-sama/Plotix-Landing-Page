@@ -77,7 +77,8 @@ export default function Category() {
                 />
               </a>
 
-              <div
+              <a
+                href="https://airtable.com/appeWU9kmSTbqykN3/shrZTjklETFQDWlKw"
                 className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 hover:scale-105 cursor-pointer"
                 style={{
                   width: "174px",
@@ -95,7 +96,7 @@ export default function Category() {
                 <div className="text-white text-21px font-bold font-['Work Sans'] cursor-pointer hover:scale-105">
                   {categoryItem.name}
                 </div>
-              </div>
+              </a>
               {/* <p className="text-base leading-7 text-gray-600 mt-4">
                 {categoryItem.role}
               </p> */}

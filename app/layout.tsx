@@ -6,8 +6,9 @@ const acme = { fontFamily: "Acme, sans-serif" };
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Genius",
-  description: "AI Platform",
+  title: "Level up your stories with real pros and real fun!",
+  description:
+    "A  dynamic platform connecting writers with industry pros for live sessions. Elevate your storytelling, find joy in the craft, and level up your writing journey with personalized guidance from real experts.",
 };
 
 export default function RootLayout({
