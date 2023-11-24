@@ -61,7 +61,7 @@ export const Example = () => {
             }}
           />
         </div>
-        <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-28">
+        <div className="mx-auto max-w-2xl py-20 sm:py-20 lg:py-20">
           <div className="text-center">
             <div className="flex items-center justify-center">
               <svg
