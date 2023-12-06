@@ -37,13 +37,13 @@ const category = [
     twitterUrl: "#",
     linkedinUrl: "#",
   },
-  // {
-  //   name: "Comics",
-  //   role: "Front-end Developer",
-  //   imageUrl: "/comic.png",
-  //   twitterUrl: "#",
-  //   linkedinUrl: "#",
-  // },
+  {
+    name: "Comics",
+    role: "Front-end Developer",
+    imageUrl: "/comic.png",
+    twitterUrl: "#",
+    linkedinUrl: "#",
+  },
   {
     name: "News",
     role: "Front-end Developer",
