@@ -17,7 +17,7 @@ const category = [
     linkedinUrl: "#",
   },
   {
-    name: "Fiction",
+    name: "Non-Fiction",
     role: "Front-end Developer",
     imageUrl: "/books.png",
     twitterUrl: "#",
@@ -37,10 +37,31 @@ const category = [
     twitterUrl: "#",
     linkedinUrl: "#",
   },
+  // {
+  //   name: "Comics",
+  //   role: "Front-end Developer",
+  //   imageUrl: "/comic.png",
+  //   twitterUrl: "#",
+  //   linkedinUrl: "#",
+  // },
   {
-    name: "Comics",
+    name: "News",
     role: "Front-end Developer",
-    imageUrl: "/comic.png",
+    imageUrl: "/news.png",
+    twitterUrl: "#",
+    linkedinUrl: "#",
+  },
+  {
+    name: "Brands",
+    role: "Front-end Developer",
+    imageUrl: "/brands.jpg",
+    twitterUrl: "#",
+    linkedinUrl: "#",
+  },
+  {
+    name: "Fiction",
+    role: "Front-end Developer",
+    imageUrl: "/fiction.png",
     twitterUrl: "#",
     linkedinUrl: "#",
   },
@@ -62,7 +83,7 @@ export default function Category() {
         </div>
         <ul
           role="list"
-          className="mx-auto mt-20 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3"
+          className="mx-auto mt-20 grid max-w-2xl grid-cols-2 gap-x-8 gap-y-16 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3"
         >
           {category.map((categoryItem) => (
             <li key={categoryItem.name} className="relative">
