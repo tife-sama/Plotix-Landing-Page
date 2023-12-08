@@ -6,9 +6,9 @@ const acme = { fontFamily: "Acme, sans-serif" };
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Level up your stories with real pros and real fun!",
+  title: "Unlock early access: Join Plotix waitlist for writers success",
   description:
-    "A  dynamic platform connecting writers with industry pros for live sessions. Elevate your storytelling, find joy in the craft, and level up your writing journey with personalized guidance from real experts.",
+    "Join the Plotix waitlist for early access and be part of a platform that supports writers to succeed and earn sharing their experience.",
 };
 
 export default function RootLayout({
