@@ -1,7 +1,7 @@
 export const Writercta = () => {
   return (
     <div className="relative grid w-full grid-cols-1 gap-5 overflow-hidden rounded-3xl bg-indigo-700 bg-cover bg-center lg:grid-cols-2">
-      <div className="order-2 flex h-full w-full items-end justify-center lg:order-1 ">
+      <div className="hidden md:block order-2 flex h-full w-full items-end justify-center lg:order-1 ">
         <img
           src="/brand.png"
           alt=""
