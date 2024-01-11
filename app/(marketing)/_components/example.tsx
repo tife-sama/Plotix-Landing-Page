@@ -75,12 +75,19 @@ export const Example = () => {
             </div>
             <br />
             <h1 className="text-6xl font-bold tracking-tight text-gray-900 sm:text-8xl">
-              Don't Write Alone
+              Write 
             </h1>
-            <p className="mt-6 text-lg leading-8 text-gray-600">
-              Find a writing partner who shares your interests in TV, Film,
-              Games, Comics and beyond. Get matched to transform your ideas into
-              published works.
+            <h1 className="text-6xl font-bold tracking-tight text-gray-900 sm:text-8xl">
+              without
+            </h1>
+            <h1 className="text-6xl font-bold tracking-tight text-gray-900 sm:text-8xl">
+              fear
+            </h1>
+            <p className="mt-6 text-xl leading-8 text-gray-600 ">
+             Book a session with industry pros and feel
+            </p>
+            <p className=" text-xl leading-8 text-gray-600 ">
+              more empowered to drive your writing forward.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <form className="mx-auto mt-10 flex max-w-md gap-x-4">
