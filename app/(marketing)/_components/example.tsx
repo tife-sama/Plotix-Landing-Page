@@ -75,13 +75,13 @@ export const Example = () => {
             </div>
             <br />
             <h1 className="text-6xl font-bold tracking-tight text-gray-900 sm:text-8xl">
-              Write 
+              Don't 
             </h1>
             <h1 className="text-6xl font-bold tracking-tight text-gray-900 sm:text-8xl">
-              without
+              Write
             </h1>
             <h1 className="text-6xl font-bold tracking-tight text-gray-900 sm:text-8xl">
-              fear
+              Alone
             </h1>
             <p className="mt-6 text-xl leading-8 text-gray-600 ">
              Book a session with industry pros and feel
