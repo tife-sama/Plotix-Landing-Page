@@ -69,7 +69,7 @@ export default function DashboardPage() {
         <div className="max-w-6xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
             <div>
-              <h2 className="text-4xl md:text-6xl font-bold leading-tight">
+              <h2 className="text-center sm:text-left text-4xl md:text-6xl font-bold leading-tight">
                 Unlock Your Creative Potential with Plotix.
               </h2>
               <p className="mt-4 text-gray-600">
