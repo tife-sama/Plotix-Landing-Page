@@ -75,30 +75,31 @@ export default function DashboardPage() {
               <p className="mt-4 text-gray-600">
                 Plotix connects passionate creatives with top-tier coaches for personalized guidance and skill enhancement. With our innovative platform, managing your creative business and community has never been easier.
               </p>
-              <div className="mt-6 space-x-2 flex flex-wrap justify-center md:justify-start">
-  <Badge className="flex items-center space-x-1" variant="secondary">
+              <div className="mt-6 space-x-2 flex flex-wrap justify-center ">
+  <Badge className="flex items-center space-x-1 mb-2" variant="secondary">
     <Check className="h-4 w-4" />
     <span>Live Video Coaching</span>
   </Badge>
-  <Badge className="flex items-center space-x-1" variant="secondary">
+  <Badge className="flex items-center space-x-1 mb-2" variant="secondary">
     <Check className="h-4 w-4" />
     <span>Hassle-Free Management</span>
   </Badge>
-  <Badge className="flex items-center space-x-1" variant="secondary">
+  <Badge className="flex items-center space-x-1 mb-2" variant="secondary">
     <Check className="h-4 w-4" />
     <span>Personalised Packages</span>
   </Badge>
 </div>
-<div className="flex justify-center lg:justify-start">
-  <Link className="flex w-full items-center py-2" href="https://airtable.com/appeWU9kmSTbqykN3/shrZTjklETFQDWlKw">
-    <Button className=" mt-6 bg-[#ff6546] text-white">Join the Waitlist</Button>
+<div className="flex justify-center mt-6">
+  <Link className="flex items-center py-2" href="https://airtable.com/appeWU9kmSTbqykN3/shrZTjklETFQDWlKw">
+    <Button className="bg-[#ff6546] text-white">Join the Waitlist</Button>
   </Link>
 </div>
+
 </div>
             <div className="flex justify-center items-center">
               <div className="relative">
                 {/* Book Package Card */}
-                <Card className="hidden md:block w-80 drop-shadow-xl mb-8 p-4 bg-white rounded-lg z-1">
+                <Card className="hidden sm:block w-80 drop-shadow-xl mb-8 p-4 bg-white rounded-lg z-1">
                   <Image
                     alt="Comic Writing Fundamentals"
                     className="rounded-md"
@@ -116,13 +117,13 @@ export default function DashboardPage() {
                       <Badge variant="secondary" className="text-orange-700">Dialogue</Badge>
                       <Badge variant="secondary" className="text-orange-700">Character Building</Badge>
                       <Badge variant="secondary" className="text-orange-700">Plot Structure</Badge>
-                      <Button className="mt-2 mb-4 bg-[#0d050d]">Book Package</Button>
+                      <Button className="mt-2 mb-4 bg-[#0d050d]">Book Soon!</Button>
                     </div>
                   </div>
                 </Card>
 
                 {/* Coach Profile Card */}
-                <Card className="hidden md:block w-64 drop-shadow-xl p-4 bg-white rounded-lg absolute top-0 right-0 transform translate-x-24 translate-y-8 z-10">
+                <Card className="hidden sm:block w-64 drop-shadow-xl p-4 bg-white rounded-lg absolute top-0 right-0 transform translate-x-24 translate-y-8 z-10">
                   <div className="flex justify-center">
                     <Avatar className="w-16 h-16">
                       <AvatarImage
@@ -292,7 +293,7 @@ export default function DashboardPage() {
                     <h3 className="text-lg font-bold">How To Break Into Animation Writing</h3>
                     <p className="text-xs text-gray-500 dark:text-gray-400">by Michael Beall</p>
                   </div>
-                  <Badge variant="outline" className="border-orange-700 text-primary text-orange-700">
+                  <Badge variant="outline" className="hidden md:block border-orange-700 text-primary text-orange-700">
                     Writing
                   </Badge>
                 </div>
