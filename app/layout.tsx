@@ -2,13 +2,13 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 
-const acme = { fontFamily: "Oswald, sans-serif" };
+const acme = { fontFamily: "sans-serif" };
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Unlock early access: Join Plotix waitlist for writers success",
+  title: "Streamlined Coaching for Creatives | Plotix",
   description:
-    "Join the Plotix waitlist for early access and be part of a platform that supports writers to succeed and earn sharing their experience.",
+    "Supercharge your coaching business and help fellow creatives through 1:1 sessions and more. Plotix streamlines your online coaching by simplifying admin tasks and facilitating sessions, all in one place.",
 };
 
 export default function RootLayout({
