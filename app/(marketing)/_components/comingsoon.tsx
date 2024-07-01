@@ -54,14 +54,14 @@ export default function ComingSoon() {
           <svg viewBox="0 0 2 2" className="mx-2 inline h-0.5 w-0.5 fill-current" aria-hidden="true">
             <circle cx={1} cy={1} r={1} />
           </svg>
-          Try Plotix on June 28th!
+          Coming Soon!
         </p>
       </div>
       <div className="flex justify-center items-center space-x-2 text-xs sm:text-sm font-mono">
-        <span className="border border-gray-300 rounded-md px-1 sm:px-2">{timeLeft.days}</span>{" "}days
+        {/* <span className="border border-gray-300 rounded-md px-1 sm:px-2">{timeLeft.days}</span>{" "}days
         <span className="border border-gray-300 rounded-md px-1 sm:px-2">{timeLeft.hours}</span>{" "}hours
         <span className="border border-gray-300 rounded-md px-1 sm:px-2">{timeLeft.minutes}</span>{" "}minutes
-        <span className="border border-gray-300 rounded-md px-1 sm:px-2">{timeLeft.seconds}</span>{" "}seconds
+        <span className="border border-gray-300 rounded-md px-1 sm:px-2">{timeLeft.seconds}</span>{" "}seconds */}
       </div>
     </div>
   );

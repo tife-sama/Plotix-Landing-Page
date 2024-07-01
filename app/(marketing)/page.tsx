@@ -138,7 +138,7 @@ export default function DashboardPage() {
                     </Avatar>
                   </div>
                   <div className="p-4 text-center">
-                    <h2 className="text-lg font-semibold">Leanne Lam</h2>
+                    <h2 className="text-lg font-semibold">Leanne Blu</h2>
                     <p className="text-gray-600 text-sm">Journalist & Podcast Host </p>
                     <div className="flex flex-wrap justify-center gap-2 mt-2">
                       <div className="flex gap-2">
@@ -695,6 +695,9 @@ export default function DashboardPage() {
 
       <div className="flex flex-col items-center mx-4">
         <div className="flex space-x-2">
+          <Link href="https://wistful-falcon-84a.notion.site/4bf57bce16df45259db4e03b0ee0ca00?v=6b930a3b548f413087431a2762069cbd" className="mx-2 underline">
+            Articles
+          </Link>
           <Link href="https://wistful-falcon-84a.notion.site/Plotix-Privacy-Policy-4f752a228ec5436b921506a25e81e809" className="mx-2 underline">
             Privacy
           </Link>
